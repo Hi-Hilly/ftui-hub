@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FTUI Student Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">FTUI</div>
+        <div class="menu">☰</div>
+    </header>
+
+    <!-- Search -->
+    <div class="container">
+        <input type="text" placeholder="Cari beasiswa, event..." class="search">
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h2>All FTUI Info in One Place</h2>
+        <div class="hero-btn">
+            <button>Beasiswa</button>
+            <button>Event</button>
+            <button>Prestasi</button>
+        </div>
+    </section>
+
+    <!-- Beasiswa -->
+    <section class="container">
+        <h3>🎓 BEASISWA TERBARU</h3>
+
+        <div class="card">
+            <h4>Beasiswa A</h4>
+            <p>Deadline: 20 Mei 2026</p>
+            <button>Detail</button>
+        </div>
+
+        <div class="card">
+            <h4>Beasiswa B</h4>
+            <p>Deadline: 25 Mei 2026</p>
+            <button>Detail</button>
+        </div>
+
+    </section>
+
+    <!-- Event -->
+    <section class="container">
+        <h3>📅 EVENT TERBARU</h3>
+
+        <div class="card">
+            <h4>Seminar FTUI</h4>
+            <p>10 Mei 2026</p>
+            <p>Lt.4 Gedung MRPQ</p>
+            <button>Detail</button>
+        </div>
+
+    </section>
+
+    <!-- Prestasi -->
+    <section class="container">
+        <h3>🏆 PRESTASI MAHASISWA</h3>
+
+        <div class="horizontal-scroll">
+            <div class="card small">Tim A - Lomba Nasional</div>
+            <div class="card small">Tim B - Internasional</div>
+        </div>
+
+    </section>
+
+    <!-- Media Sosial -->
+    <section class="container">
+        <h3>📱 MEDIA SOSIAL</h3>
+
+        <div class="grid">
+            <div class="card center">Fakultas Teknik Universitas Indonesia</div>
+            <div class="card center">Departemen Teknk Sipil dan Lingkungan</div>
+            <div class="card center">Departemen Teknik Mesin</div>
+            <div class="card center">Departemen Teknik Elektro</div>
+            <div class="card center">Departemen Teknik Metalurgi dan Material</div>
+            <div class="card center">Departemen Teknik Industri</div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 FTUI Student Hub</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll("button").forEach(btn => {
+            btn.onclick = () => alert("Fitur belum tersedia (prototype)");
+        });
+    </script>
+</body>
+
+</html>
